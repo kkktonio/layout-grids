@@ -1,0 +1,21 @@
+.cards{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  height: 160px;
+  color: white;
+  border-radius: 3px;
+  margin: 10px;
+  font-family: lato;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 0 1 12px rgba(0,0,0,0.9);
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.cards:hover{
+  font-size: 35px;
+  opacity: 0.85;
+}

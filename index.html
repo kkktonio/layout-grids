@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Cards Grid</title>
+  </head>
+  <body>
+    <header class="logo1">
+     <img class="logo" src="images/airbnb.png" alt="">
+    </header>
+    <div class="map-layout">
+     <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-paris">
+            Paris
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-rio">
+            Rio
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-tokyo">
+            Tokyo
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-newyork">
+            New York
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-saoluis">
+            Sao Luis
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-chicago">
+            Chicago
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-losangeles">
+            Los Angeles
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-mexico">
+            Mexico
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-londres">
+            Londres
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-hawai">
+            Hawaï
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-moscou">
+            Moscou
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-taiwan">
+            Taiwan
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-paris">
+            Paris
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-rio">
+            Rio
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-tokyo">
+            Tokyo
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-newyork">
+            New York
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-paris">
+            Paris
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="cards cards-rio">
+            Rio
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!--initialisation de la map  -->
+    <div class="map-content">
+      <div id="map">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d42009.52704466864!2d2.2924875!3d48.846855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67036654137cf%3A0xf2d02b7aa8d5376f!2sEcole+Sup%C3%A9rieure+du+Digital!5e0!3m2!1sfr!2sfr!4v1541600661994" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+        </iframe> -->
+      </div>
+    </div>
+  </div>
+
+<!--script de la map -->
+
+  <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 48.856211, lng: 2.307844},
+          zoom: 13
+        });
+      }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPSti-g_XedHW0VnM-dfbbEOeNhh9nXWg&callback=initMap" async defer>
+  </script>
+ </body>
+</html>

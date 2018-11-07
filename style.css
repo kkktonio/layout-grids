@@ -1,0 +1,73 @@
+@import url("components/header.css");
+@import url("components/cards.css");
+@import url("components/map.css");
+
+body{
+  font-family: lato;
+}
+
+.logo{
+  height: 55px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 600px;
+}
+
+/* background de toutes les cards */
+
+
+.cards-paris{
+  background-image: url(images/paris.jpg);
+}
+
+.cards-rio{
+  background-image: url(images/rio.jpg);
+}
+
+.cards-tokyo{
+  background-image: url(images/tokyo.jpg);
+}
+
+.cards-newyork{
+  background-image: url(images/newyork.jpg);
+}
+
+.cards-saoluis{
+  background-image: url(images/saoluis.jpg);
+}
+
+.cards-chicago{
+  background-image: url(images/chicago.jpg);
+}
+
+.cards-losangeles{
+  background-image: url(images/losangeles.jpg);
+}
+
+.cards-mexico{
+  background-image: url(images/mexico.jpg);
+}
+
+.cards-londres{
+  background-image: url(images/londres.jpg);
+}
+
+.cards-hawai{
+  background-image: url(images/hawai.jpg);
+}
+
+.cards-moscou{
+  background-image: url(images/moscou.jpg);
+}
+
+.cards-taiwan{
+  background-image: url(images/taiwan.jpg);
+}
+
+/* ************ */
+
+.cards:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
